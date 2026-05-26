@@ -323,7 +323,7 @@ async def setup_ticket(interaction: discord.Interaction):
         color=discord.Color.red()
     )
 
-    embed.set_footer(text="CarnageZ • Suporte Oficial")
+    embed.set_footer(text="CarnageZ • desenvolvido por Mak3r")
 
     await interaction.channel.send(embed=embed, view=TicketOpenView())
     await interaction.response.send_message(
